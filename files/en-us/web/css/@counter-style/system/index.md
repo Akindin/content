@@ -44,7 +44,7 @@ The values include:
 
 - `numeric`
 
-  - : Interprets the counter symbols as digits in a [place-value numbering system](https://en.wikipedia.org/wiki/Positional_notation). The numeric system is similar to the `alphabetic` system, described above. The main difference is that in the `alphabetic` system, the first counter symbol given in the `symbols` descriptor is interpreted as `1`, the next as `2`, and so on. However, in the numeric system, the first counter symbol is interpreted as 0, the next as `1`, then `2`, and so on.
+  - : Interprets the counter symbols as digits in a [place-value numbering system](https://en.wikipedia.org/wiki/Positional_notation). The numeric system is similar to the `alphabetic` system, described below. The main difference is that in the `alphabetic` system, the first counter symbol given in the `symbols` descriptor is interpreted as `1`, the next as `2`, and so on. However, in the numeric system, the first counter symbol is interpreted as 0, the next as `1`, then `2`, and so on.
 
     At least two counter symbols must be specified in the `symbols` descriptor or the counter style is not valid.
 
